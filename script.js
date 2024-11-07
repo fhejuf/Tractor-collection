@@ -1,0 +1,71 @@
+// script.js
+const gallery = document.querySelector('.gallery');
+
+// Assuming your image files are in a folder named "Images"
+const imageFiles = [
+  Images/IMG_2067.jpg, 
+Images/IMG_2068.jpg, 
+Images/IMG_2070.jpg, 
+Images/IMG_2071.jpg, 
+Images/IMG_2072.jpg, 
+Images/IMG_2073.jpg, 
+Images/IMG_2074.jpg, 
+Images/IMG_2075.jpg, 
+Images/IMG_2077.jpg, 
+Images/IMG_2078.jpg, 
+Images/IMG_2079.jpg, 
+Images/IMG_2080.jpg, 
+Images/IMG_2081.jpg, 
+Images/IMG_2082.jpg, 
+Images/IMG_2083.jpg, 
+Images/IMG_2085.jpg, 
+Images/IMG_2086.jpg, 
+Images/IMG_2087.jpg, 
+Images/IMG_2088.jpg, 
+Images/IMG_2089.jpg, 
+Images/IMG_2090.jpg, 
+Images/IMG_2091.jpg, 
+Images/IMG_2092.jpg, 
+Images/IMG_2093.jpg, 
+Images/IMG_2094.jpg, 
+Images/IMG_2095.jpg, 
+Images/IMG_2096.jpg, 
+Images/IMG_2097.jpg, 
+Images/IMG_2098.jpg, 
+Images/IMG_2099.jpg, 
+Images/IMG_2100.jpg, 
+Images/IMG_2101.jpg, 
+Images/IMG_2102.jpg, 
+Images/IMG_2103.jpg, 
+Images/IMG_2104.jpg, 
+Images/IMG_2105.jpg, 
+Images/IMG_2106.jpg, 
+Images/IMG_2107.jpg, 
+Images/IMG_2108.jpg, 
+Images/IMG_2109.jpg, 
+Images/IMG_2110.jpg, 
+Images/IMG_2111.jpg, 
+Images/IMG_2112.jpg, 
+Images/IMG_2113.jpg, 
+Images/IMG_2114.jpg, 
+Images/IMG_2115.jpg, 
+Images/IMG_2116.jpg, 
+Images/IMG_2117.jpg, 
+Images/IMG_2118.jpg, 
+Images/IMG_2119.jpg, 
+Images/IMG_2120.jpg, 
+Images/IMG_2121.jpg, 
+Images/IMG_2122.jpg, 
+Images/IMG_2123.jpg, 
+Images/IMG_2124.jpg, 
+Images/IMG_2127.jpg, 
+Images/IMG_2128.jpg, 
+Images/IMG_2320.jpg, 
+Images/IMG_2328.jpg
+];
+
+imageFiles.forEach(file => {
+  const img = document.createElement('img');
+  img.src = file;
+  gallery.appendChild(img);
+});
