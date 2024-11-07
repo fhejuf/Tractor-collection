@@ -1,0 +1,2 @@
+You can achieve this by changing the grid-template-columns property in CSS to repeat(auto-fill, minmax(25%, 1fr)). This will divide the container into four columns of equal width (25% each).
+This code will make each image span the width of one fourth of your page, creating a grid that is four images wide across. The minmax(25%, 1fr) function makes sure that any additional columns will have at least a width of 25% and can grow to take up any remaining space (1fr stands for 'fractional available space').
